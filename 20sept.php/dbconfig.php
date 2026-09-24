@@ -8,7 +8,7 @@ $db ="pwad73";
 $conn =mysqli_connect($host, $user, $passw, $db);
  if (!$conn){
     die("Database  conn  failed :" . mysqli_connect-err0r() );
- } //else{
-    //echo"ok";
- //}
+ } else{
+    echo"ok";
+ }
 ?>
